@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-08</title>
+   
+</head>
+<style>
+    .header{
+        background-color: black;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 25px;
+       padding:10px;
+       top:0px;
+       position:fixed;
+       width: 1490px;
+     
+
+        
+    }
+   .header ul a{
+        text-decoration: none;
+        color: white;
+        font-size: 26px;
+        font-family: sans-serif;
+        margin: 80px;
+        
+        
+        
+
+    }
+    .header ul a:hover{
+       background-color:red;
+       padding-top: 11px;
+       padding-bottom: 7px;
+       padding-left: 5px;
+       padding-right: 5px;
+    }
+    .Banner{
+
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: url(./images/bg.jpg);
+        height: 600px;
+        margin-top: 110px;
+        background-size: cover;
+        background-position:center;
+        display: flex;
+        
+
+    }
+    .Banner h3{
+        color:rgb(255, 255, 255);
+        font-size: 80px;
+        font-family: sans-serif;
+    }
+    
+  
+    
+    #section1{
+        height: 260px;
+        width: 260px;
+        background-color:orangered;
+        border-radius: 50%;
+        margin-right: 45px;
+        margin-left: 45px;
+        background-image: url(./images/1img.png);
+    }
+    .Sections h2{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+       
+
+    }
+    #section2{
+        height: 260px;
+        width: 260px;
+        background-color:orangered;
+        border-radius: 50%;
+        margin-right: 45px;
+        margin-left: 45px;
+        background-image: url(./images/2img.png);
+       
+    }
+    #section3{
+        height: 260px;
+        width: 260px;
+        background-color:orangered;
+        border-radius: 50%;
+        margin-right: 45px;
+        margin-left: 45px;
+        background-image: url(./images/3img.png);
+    }
+    #section4{
+        height: 260px;
+        width: 260px;
+        background-color:orangered;
+        border-radius: 50%;
+        margin-right: 45px;
+        margin-left: 45px;
+        background-image: url(./images/4img.png);
+    }
+    .Sections{
+     
+        display: inline-flex;
+        margin-left: 32px;
+       
+    }
+    .Section-heading{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 23px;
+        
+
+    }
+    .Section2-heading{
+        text-align: center;
+        font-size: 23px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .Main-content{
+        color: whitesmoke;
+        background-color: rgb(131, 123, 123);
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+        height: 600px;
+        width: 50%;
+        justify-content: center;
+        float: left;
+       
+
+    }
+    .Article1{
+       
+        background-image: url(./images/p1.jpg);
+        background-size: 100% 180%;
+        background-repeat: no-repeat;
+        padding-top: 10px;
+        color:black;
+        text-align: center;
+        height: 31%;
+        margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .Article2{
+        color: whitesmoke;
+        background-color: tomato;
+      
+       
+       height: 31%;
+        margin-bottom: 20px;
+        color:black;
+        text-align: center;
+
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(./images/p2.jpeg);
+        background-size: 100% 180%;
+        background-repeat: no-repeat;
+        
+    }
+    .Article3{
+        color:black;
+        text-align: center;
+        background-color: tomato;
+       
+        height: 29%;
+        margin-bottom: 20px;
+      
+      
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(./images/p3.jpg);
+        background-size: 100% 180%;
+        background-repeat: no-repeat;
+        
+    }
+    
+    .Section-2{
+        display: block;
+    }
+    .Articles{
+        width: 48%;
+        height: 600px;
+        float: right;
+    }
+    #section-3a{
+        height: 420px;
+        width: 280px;
+        background-color:rgb(185, 182, 182);
+        border-radius: none;
+        margin-right: 35px;
+        margin-left: 35px;
+        border-radius: 10px;
+
+    
+    }
+
+    #section-3a img{
+        width: 280px;
+        height: 150px;
+        border-radius: 10px;
+    }
+    #section-3a h3{
+        text-align: center;
+        font-family: sans-serif;
+        color: white;
+        text-align: center;
+        font-size:22px;
+    
+    }
+    #section-3a p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10px;
+        text-align: justify;
+        line-height: 25px;
+       color: white;
+    }
+
+   
+    .Section3-heading{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        padding: 25px 0px;
+       
+        
+
+    }
+    .Section4-heading{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    .Section3{
+      padding: 20px;
+    }
+    .footer{
+        height: 100%;
+        color: black;
+        background-color: violet;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: block;
+       font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding:8px;
+
+    }
+.Section-2::after{
+    content: '';
+    display:block;
+    clear: both;
+}
+    
+    h1{
+        text-align: center;
+
+    }
+    .Banner h3{
+       
+       font-weight: bold;
+
+        
+    }
+    .Main-content p{
+          font-size: 25px;
+          text-align: justify;
+          font-family: sans-serif;
+          margin:10px;
+          overflow: hidden;
+    }
+    .Main-content h2{
+        display: block;
+        margin:10px;
+
+        
+    }
+    #section-3a a{
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        font-size: 25px;
+        display: block;
+        text-align: center;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    #section-3a a:hover{
+        background-color: blue;
+    }
+    
+</style>
+<body>
+    <div class="header">
+        <a name='header'></a>
+        <ul>
+            <a href='#header'>HOME</a>
+            <a href='#Section2-heading'>ABOUT</a>
+            <a href='#Section-heading'>TEAM</a>
+            <a href='#Section3'>TECHNOLOGIES</a>
+            <a href='#Section4'>CONTACT</a>
+        </ul>
+    </div>
+    <div class="Banner">
+       <h3>
+           Practical-08
+       </h3>
+     
+    </div>
+    
+    <div class="Section-heading">
+   
+    <h1>
+        <a name="Section-heading"></a>
+        Team Members
+    </h1>
+</div>
+    <div class="Sections">
+        <div id="section1">
+           
+        </div>
+        <div id="section2">
+           
+        </div>
+        <div id="section3">
+           
+        </div>
+        <div id="section4">
+           
+        </div>
+        <a name="Section2-heading"></a>  
+    </div>
+    
+    <div class="Section2-heading">
+        
+        <h1>
+            About Us
+        </h1>
+    </div>
+    
+    <div class="Section-2">
+    <div class="Main-content">
+        <h2>
+            About Projects
+        </h2>
+        <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla explicabo nemo aliquam pariatur iusto consequatur illum unde eius quos ab perspiciatis iure doloremque aspernatur quis veniam tempore accusamus dolorum, odio suscipit corrupti alias debitis labore placeat. Optio, sapiente iusto! Magnam distinctio corrupti pariatur esse velit iste itaque ducimus, aperiam laudantium explicabo debitis quae. Numquam recusandae nulla sit modi voluptate laboriosam fuga esse veniam maiores libero cum ad quia dolorum voluptates ullam voluptatum molestias, quasi deleniti ipsa quam atque quisquam. Unde, reiciendis veritatis consectetur quia sed, quasi fugiat atque ipsum a voluptas qui, distinctio dolore repudiandae incidunt rem velit! Dolorum iusto sequi quis tenetur autem. Natus, quis! Autem aliquam corporis adipisci ab fugit optio, sequi, perspiciatis provident, modi maiores harum dolore dolores voluptatum veritatis porro excepturi sunt asperiores doloremque natus deleniti consequatur. Voluptatibus quibusdam quod sint repudiandae placeat, eveniet necessitatibus nam sapiente asperiores libero et expedita, officiis similique aliquam laborum illo!
+        </p>>
+    </div>
+    <div class="Articles">
+        <div class="Article1">
+            <h2>
+               Project-1
+            </h2>
+        </div>
+        <div class="Article2">
+            <h2>
+                Project-2
+            </h2>
+        </div>
+        <div class="Article3">
+            <h2>
+               Project-3
+            </h2>
+        </div>
+    </div>
+</div>
+
+
+<div class="Section3">
+    <a name="Section3"></a>
+    <div class="Section3-heading">
+        <h2>
+            Technologies Used
+        </h2>
+       
+    </div>
+    <div class="Sections">
+        <div id="section-3a">  
+            <img src="./images/html-logo.jpg">
+            <h3>
+                Introduction to HTML
+            </h3>
+            <p>
+                Stands for "Hypertext Markup Language." HTML is the language used to create webpages. "Markup language" refers to the way tags are used to define the page layout and elements within the page.
+            </p>
+            <a href="Assignment-5-html.html">Read more</a>
+        </div>
+        <div id="section-3a">
+            <img src="./images/css-logo.jpg">
+            <h3>
+                Introduction to CSS
+            </h3>
+            <p>
+                CSS describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+                
+            </p>
+            <a href="Assignment-5-css.html">Read more</a>
+        </div>
+        <div id="section-3a">   
+            <img src="./images/javascript-logo.jpg">
+            <h3>
+                Introduction to JavaScript
+            </h3>
+            <p>
+                JavaScript (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, and is best known as the scripting language for Web pages scripting language for Web pages.
+            </p>
+            <a href="Assignment-5-javascript.html">Read more</a>
+        </div>
+        <div id="section-3a">
+            <img src="./images/bootstrap-logo.jpg">
+            <h3>
+                Introduction to Bootstrap
+            </h3>
+            <p>
+                Bootstrap is a HTML, CSS & JS Library that focuses on simplifying the development of informative web pages (as opposed to web apps). The primary purpose of adding scripting language for Web pages.
+            </p>
+            <a href="Assignment-5-bootstrap.html">Read more</a>
+           
+        </div>
+    </div>
+
+</div>
+<div class="Section4"></div>
+<a name='Section4'></a>
+<div class="Section4-heading">
+    <h2>
+        Contact
+    </h2>
+</div>
+<div class="footer">
+<p>
+   Website Tempalte for Practical-08 © <a href="index.html">Practials</a><br><br>
+   <div id='back'></div>
+   <a href="Assignment-08.html">Back to top</a>
+   
+</p>
+</div>
+</div>
+</div>
+
+</body>
+</html>
