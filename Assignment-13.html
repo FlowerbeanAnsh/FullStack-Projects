@@ -18,31 +18,37 @@
       text-align: center;
       line-height: 3px;
       border-collapse: separate;
-      border-spacing: 0;
-      border: 2px;
-      width: 50%;
+      border-spacing: 1;
+      border-right: 20px solid white;
+      border-left: 20px solid white;
+      border-top:20px solid white;
+      border-bottom:20px solid white;
+      width: 60%;
       margin: 20px auto;
       border-radius: 7px;
-      height: 600px;
+     
       padding-bottom: 15px;
-      padding: 15px;
+      
+      
     }
     th h2 {
       color: rgb(133, 21, 133);
     }
     thead {
       text-align: center;
-      font-size: 14px;
+      font-size: 11px;
     }
     .btn {
+      
       background-color: rgb(133, 21, 133);
       color: white;
       font-size: 16px;
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-top: 7px;
-      padding-bottom: 7px;
-      border-radius: 8px;
+      padding-left: 27px;
+      padding-right: 27px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 7px;
+      margin-top: 12px;
     }
     .first_row {
       color: rgb(10, 221, 10);
@@ -52,11 +58,18 @@
       background-color: red;
     }
     tbody tr:nth-child(odd) {
-      background-color: #edf3e2;
+      background-color: #cdeb97;
+    }
+    .head{
+      font-size: 22px;
+      color:rgb(133, 21, 133);
+    }
+    body{
+      background-color: rgb(241, 237, 237);
     }
   </style>
   <body>
-    <table border="0">
+    <table>
       <thead>
         <tr>
           <th colspan="4"><h1>SELECT YOUR PLAN</h1></th>
@@ -65,22 +78,18 @@
       <tbody>
         <tr>
           <th>
-            <i class="fa fa-building" style="color: rgb(133, 21, 133)"></i>
-            <h2>Basic</h2>
+          
+            <p class="head"><i class="fa fa-building" style="color: rgb (133, 21, 133);"></i> Basic</p>
+          
           </th>
           <th>
-            <h2>
-              <i class="fa fa-superpowers" style="color: rgb(133, 21, 133)"></i
-              >Plus
-            </h2>
+            <p class="head"><i class="fa fa-superpowers" style="color: rgb (133, 21, 133)"></i> Plus</p>
           </th>
           <th>
-            <i class="fa fa-telegram" style="color: rgb(133, 21, 133)"></i>
-            <h2>Deluxe</h2>
+            <p class="head"><i class="fa fa-telegram" style="color: rgb (133, 21, 133)"></i> Deluxe</p>
           </th>
           <th>
-            <i class="fa fa-tachometer" style="color: rgb(133, 21, 133)"></i>
-            <h2>Pro</h2>
+            <p class="head"><i class="fa fa-tachometer" style="color: rgb (133, 21, 133)"></i> Pro</p>
           </th>
         </tr>
         <tr class="first_row">
@@ -125,78 +134,78 @@
           <td>
             <i
               class="fa fa-check"
-              style="color: rgb(10, 221, 10); font-size: 20px"
+              style="color: rgb(10, 221, 10); font-size: 20px;padding:7px;"
             ></i>
           </td>
           <td>
             <i
               class="fa fa-check"
-              style="color: rgb(10, 221, 10); font-size: 20px"
+              style="color: rgb(10, 221, 10); font-size: 20px;padding:7px;"
             ></i>
           </td>
           <td>
             <i
               class="fa fa-check"
-              style="color: rgb(10, 221, 10); font-size: 20px"
+              style="color: rgb(10, 221, 10); font-size: 20px;padding:7px;"
             ></i>
           </td>
           <td>
             <i
               class="fa fa-check"
-              style="color: rgb(10, 221, 10); font-size: 20px"
-            ></i>
-          </td>
-        </tr>
-        <tr>
-          <td><i class="fa fa-times" style="color: red;font-size:20px;"</td>
-          <td>
-            <i
-              class="fa fa-check"
-              style="color: rgb(10, 221, 10); font-size: 20px"
-            ></i>
-          </td>
-          <td>
-            <i
-              class="fa fa-check"
-              style="color: rgb(10, 221, 10); font-size: 20px"
-            ></i>
-          </td>
-          <td>
-            <i
-              class="fa fa-check"
-              style="color: rgb(10, 221, 10); font-size: 20px"
+              style="color: rgb(10, 221, 10); font-size: 20px;padding:7px;"
             ></i>
           </td>
         </tr>
         <tr>
-          <td><i class="fa fa-times" style="color: red;font-size:20px;"</td>
-          <td><i class="fa fa-times" style="color: red;font-size:20px;"</td>
+          <td><i class="fa fa-times" style="color: red;font-size:20px;padding:7px;"</td>
           <td>
             <i
               class="fa fa-check"
-              style="color: rgb(10, 221, 10); font-size: 20px"
+              style="color: rgb(10, 221, 10); font-size: 20px;padding:7px;"
             ></i>
           </td>
           <td>
             <i
               class="fa fa-check"
-              style="color: rgb(10, 221, 10); font-size: 20px"
+              style="color: rgb(10, 221, 10); font-size: 20px;padding:7px;"
+            ></i>
+          </td>
+          <td>
+            <i
+              class="fa fa-check"
+              style="color: rgb(10, 221, 10); font-size: 20px;padding:7px;"
             ></i>
           </td>
         </tr>
         <tr>
-          <td><i class="fa fa-times" style="color: red;font-size: 20px;"</td>
-          <td><i class="fa fa-times" style="color: red;font-size:20px;"</td>
+          <td><i class="fa fa-times" style="color: red;font-size:20px;padding:7px;"</td>
+          <td><i class="fa fa-times" style="color: red;font-size:20px;padding:7px;"</td>
           <td>
             <i
               class="fa fa-check"
-              style="color: rgb(10, 221, 10); font-size: 20px"
+              style="color: rgb(10, 221, 10); font-size: 20px;padding:7px;"
             ></i>
           </td>
           <td>
             <i
               class="fa fa-check"
-              style="color: rgb(10, 221, 10); font-size: 20px"
+              style="color: rgb(10, 221, 10); font-size: 20px;padding:7px;"
+            ></i>
+          </td>
+        </tr>
+        <tr>
+          <td><i class="fa fa-times" style="color: red;font-size: 20px;padding:7px;"</td>
+          <td><i class="fa fa-times" style="color: red;font-size:20px;padding:7px;"</td>
+          <td>
+            <i
+              class="fa fa-check"
+              style="color: rgb(10, 221, 10); font-size: 20px;padding:7px;"
+            ></i>
+          </td>
+          <td>
+            <i
+              class="fa fa-check"
+              style="color: rgb(10, 221, 10); font-size: 20px;padding:7px;"
             ></i>
           </td>
         </tr>
