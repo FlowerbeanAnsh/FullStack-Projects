@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-14</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    body{
+        background-color:rgb(0, 0, 0);
+    }
+  #container{
+          display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+           align-items: center;
+           justify-content: center;
+         
+           margin-top: 8%;
+
+  }
+  h1{
+     color: rgb(0, 250, 229);
+     font-size: 60px;
+     margin-bottom: 2%;
+     margin-top: 3%;
+  }
+  #plus{
+      font-size: 50px;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      padding-right: 2.5%;
+      padding-left: 2.5%;
+      background-color: rgb(22, 223, 49);
+      color: white;
+      font-weight: bold;
+      border: white;
+      position:relative;
+      
+  }
+  #minus{
+    font-size: 50px;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      padding-right: 2.7%;
+      padding-left: 2.7%;
+      color:white;
+      background: red;
+      border: white;
+  }
+  #count{
+      font-size: 70px;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      padding-right: 3.6%;
+      padding-left: 3.6%;
+      color: white;
+      width: 15%;
+  }
+</style>
+<body>
+    <center>
+        <h1>COUNTER</h1>
+        <div id="container">
+            <button id="minus">-</button>
+            <p id="count">0</p>
+            <button id="plus">+</button>
+        </div>
+    </center>
+
+
+    <script>
+        var minus = document.getElementById("minus");
+        var plus = document.getElementById("plus");
+        count = document.getElementById("count");
+        var counter = 0;
+        updateCounter();
+    
+        function updateCounter() {
+            count.innerHTML = counter;
+            if (counter <= 0) count.style.color = "red";
+            else if(counter<=15) count.style.color ="orange"
+           
+        }
+    
+        plus.addEventListener("click", () => {
+            counter++;
+            updateCounter();
+        });
+    
+        minus.addEventListener("click", () => {
+    
+    
+            if (counter <= 0) {
+                minus.disable = true;
+            } else {
+                counter--;
+                minus.disable = false;
+            }
+            updateCounter();
+        });
+    
+    </script>
+    
+</body>
+</html>
