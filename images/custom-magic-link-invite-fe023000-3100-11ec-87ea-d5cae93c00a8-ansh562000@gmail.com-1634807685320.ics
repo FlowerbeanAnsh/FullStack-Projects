@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:Airmeet
+X-PUBLISHED-TTL:PT1H
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:fe023000-3100-11ec-87ea-d5cae93c00a8
+SUMMARY:DevFest India
+DTSTAMP:20211014T214300Z
+DTSTART:20211022T150000Z
+DTEND:20211023T154500Z
+DESCRIPTION:Please join the event here: https://www.airmeet.com/e/fe023000-3100-11ec-87ea-d5cae93c00a8?code=8bdff439-c326-4186-971b-6204391b73cb\n\nThis link is only for you. Please don't share it with others.\nAirmeet is best experienced from your desktop and on latest Chrome browser(recommended)
+URL:https://www.airmeet.com/e/fe023000-3100-11ec-87ea-d5cae93c00a8?code=8bdff439-c326-4186-971b-6204391b73cb
+LOCATION:https://www.airmeet.com/e/fe023000-3100-11ec-87ea-d5cae93c00a8?code=8bdff439-c326-4186-971b-6204391b73cb
+ORGANIZER;CN=Devfestindia's Community:mailto:notifications@airmeet.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=ansh562000@gmail.com;X-PARAM-GUEST=0:mailto:ansh562000@gmail.com
+STATUS:NEEDS-ACTION
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

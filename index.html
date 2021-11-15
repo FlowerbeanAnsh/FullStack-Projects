@@ -9,18 +9,7 @@
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet"
         />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="./css/style.css"
-    />
-    <script src="main.js"></script>
-    <style>
-      body {
-        background: none;
-      }
-    </style>
+    
   </head>
   <body>
   
@@ -107,12 +96,31 @@
           }
           .delete:hover {
             color: rgb(221, 3, 3);
-          
+          }
+        @media (max-width:600px){
+          table {
+            text-align: left;
+            line-height: 22px;
+            border-collapse: separate;
+            border-spacing: 0;
+            border: 3px solid #34495e;
+            width: 100%;
+            margin: 20px auto;
+            border-radius: 7px;
+            
+          }
+          .image img{
+            width: 100%;
+          }
+          .deliver{
+            margin-right: 2%;
+          }
+        }
         </style>
         <title>Practical-12</title>
       </head>
       <body>
-        <table border="0">
+        <table>
           <thead>
             <tr><th colspan="5">Fullstack Live Practical Book</th></tr>
             <tr>
